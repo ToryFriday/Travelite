@@ -155,7 +155,7 @@ app.post('/incoming', async (req, res) => {
 });
 
 // Start server
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
     console.log(`Server is running on port ${PORT}`);
     console.log('Make sure IBM_API_KEY, WATSONX_PROJECT_ID, and WATSONX_MODEL_ID are set in your environment or .env file.');
